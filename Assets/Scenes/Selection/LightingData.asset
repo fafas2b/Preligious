@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1120 &112000000
+LightingDataAsset:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: LightingData
+  m_Scene: {fileID: 102900000, guid: da87aec5d441d3746a19c7a2be1ae5e1, type: 3}
+  m_Lightmaps:
+  - serializedVersion: 2
+    m_Lightmap: {fileID: 2800000, guid: acd69df77458add46ba61b2cdf42d42a, type: 2}
+    m_DirLightmap: {fileID: 2800000, guid: 7d2a638967cf41e489126324e0b7eb0b, type: 2}
+    m_ShadowMask: {fileID: 0}
+  m_AOTextures: []
+  m_LightmapsCacheFiles: []
+  m_LightProbes: {fileID: 25800000, guid: 6249d9506dfce964d9ea6defabb427d9, type: 2}
+  m_LightmapsMode: 1
+  m_BakedAmbientProbeInLinear:
+    sh[ 0]: 0
+    sh[ 1]: 0
+    sh[ 2]: 0
+    sh[ 3]: 0
+    sh[ 4]: 0
+    sh[ 5]: 0
+    sh[ 6]: 0
+    sh[ 7]: 0
+    sh[ 8]: 0
+    sh[ 9]: 0
+    sh[10]: 0
+    sh[11]: 0
+    sh[12]: 0
+    sh[13]: 0
+    sh[14]: 0
+    sh[15]: 0
+    sh[16]: 0
+    sh[17]: 0
+    sh[18]: 0
+    sh[19]: 0
+    sh[20]: 0
+    sh[21]: 0
+    sh[22]: 0
+    sh[23]: 0
+    sh[24]: 0
+    sh[25]: 0
+    sh[26]: 0
+  m_LightmappedRendererData:
+  - uvMesh: {fileID: 0}
+    terrainDynamicUVST: {x: 1, y: 1, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 1, y: 1, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 1, y: 0.83203125, z: 0, w: 0}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+    explicitProbeSetHash:
+      serializedVersion: 2
+      Hash: 9962a05e1d46b6c3e3cf1e98c032b271
+  m_LightmappedRendererDataIDs:
+  - targetObject: 2270
+    targetPrefab: 0
+  m_EnlightenSceneMapping:
+    m_Renderers: []
+    m_Systems: []
+    m_Probesets: []
+    m_SystemAtlases: []
+    m_TerrainChunks: []
+  m_EnlightenSceneMappingRendererIDs: []
+  m_Lights:
+  - targetObject: 2243
+    targetPrefab: 0
+  - targetObject: 2244
+    targetPrefab: 0
+  m_LightBakingOutputs:
+  - serializedVersion: 2
+    probeOcclusionLightIndex: -1
+    occlusionMaskChannel: -1
+    lightmapBakeMode:
+      lightmapBakeType: 4
+      mixedLightingMode: 2
+    isBaked: 0
+  - serializedVersion: 2
+    probeOcclusionLightIndex: -1
+    occlusionMaskChannel: -1
+    lightmapBakeMode:
+      lightmapBakeType: 4
+      mixedLightingMode: 2
+    isBaked: 0
+  m_BakedReflectionProbeCubemapCacheFiles: []
+  m_BakedReflectionProbeCubemaps: []
+  m_BakedReflectionProbes: []
+  m_EnlightenData:
+  m_EnlightenDataVersion: 112

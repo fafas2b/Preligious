@@ -1,0 +1,106 @@
+{
+  "project_info": {
+    "project_number": "249390023588",
+    "firebase_url": "https://virtuarcetibd-default-rtdb.firebaseio.com",
+    "project_id": "virtuarcetibd",
+    "storage_bucket": "virtuarcetibd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:249390023588:android:18f66cdb74d92f2766f731",
+        "android_client_info": {
+          "package_name": "com.DefaultCompany.a"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "249390023588-1pqjl6m4123td6u73nv61mncb8k12gj0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDTYHzw0pN71ksBW_D21t5P1pZl_yPmos"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "249390023588-1pqjl6m4123td6u73nv61mncb8k12gj0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:249390023588:android:a60ba59d6507c33766f731",
+        "android_client_info": {
+          "package_name": "com.ceti.virtuarceti"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "249390023588-3mc59hk3v3ugk4apr9qnve1547ai8gfm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ceti.virtuarceti",
+            "certificate_hash": "524d596f38668a3410bf305138a3b48f52940962"
+          }
+        },
+        {
+          "client_id": "249390023588-1pqjl6m4123td6u73nv61mncb8k12gj0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDTYHzw0pN71ksBW_D21t5P1pZl_yPmos"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "249390023588-1pqjl6m4123td6u73nv61mncb8k12gj0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:249390023588:android:62ade9b4a5c3a79d66f731",
+        "android_client_info": {
+          "package_name": "com.virtuarceti.test01"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "249390023588-1pqjl6m4123td6u73nv61mncb8k12gj0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDTYHzw0pN71ksBW_D21t5P1pZl_yPmos"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "249390023588-1pqjl6m4123td6u73nv61mncb8k12gj0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
