@@ -51,7 +51,7 @@ public class ControldelUI : MonoBehaviour
         {
             if (recuperarEstaminaCoroutine == null)
             {
-                recuperarEstaminaCoroutine = StartCoroutine(RecuperarEstamina(0.001f)); // Recupera más rápido cuando está quieto
+                recuperarEstaminaCoroutine = StartCoroutine(RecuperarEstamina(0.002f)); // Recupera más rápido cuando está quieto
             }
         }
 
