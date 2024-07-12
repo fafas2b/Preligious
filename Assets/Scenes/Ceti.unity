@@ -28083,7 +28083,7 @@ MeshCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
@@ -38387,7 +38387,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 792ae8f2b24081c4398194a721f898e7, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 5.124893
+      value: 6.1248927
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 792ae8f2b24081c4398194a721f898e7, type: 3}
       propertyPath: m_LocalRotation.w

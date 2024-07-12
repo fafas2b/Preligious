@@ -11,6 +11,8 @@ namespace StarterAssets
 #endif
     public class ThirdPersonController : MonoBehaviour
     {
+        private bool isPaused = false;
+
         [Header("Jugador")]
         public float MoveSpeed = 2.0f;
         public float SprintSpeed = 5.335f;
@@ -110,10 +112,17 @@ namespace StarterAssets
 
         private void Update()
         {
+            if (isPaused) return;
+
             _hasAnimator = TryGetComponent(out _animator);
             JumpAndGravity();
             GroundedCheck();
             Move();
+        }
+        
+        public void SetPauseState(bool pause)
+        {
+            isPaused = pause;
         }
 
         private void LateUpdate()
