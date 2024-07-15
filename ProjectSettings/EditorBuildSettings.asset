@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/testeo del protagonista.unity
+    guid: 02ee865884bb8ae4694127dd9582072d
   m_configObjects: {}

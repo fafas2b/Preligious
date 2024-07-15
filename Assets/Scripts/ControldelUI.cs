@@ -35,10 +35,6 @@ public class ControldelUI : MonoBehaviour
                 recuperarEstaminaCoroutine = null;
             }
         }
-        else if (!TenerEstamina)
-        {
-            Debug.Log("No tienes estamina");
-        }
 
         if (TocarWASD())
         {
@@ -60,10 +56,6 @@ public class ControldelUI : MonoBehaviour
         {
             thirdPersonController.TenerEstamina = TenerEstamina; // Actualiza TenerEstamina en el ThirdPersonController
         }
-        else
-        {
-            Debug.LogWarning("Referencia a ThirdPersonController no asignada");
-        }
     }
 
     private bool RestarEstamina()
@@ -72,7 +64,6 @@ public class ControldelUI : MonoBehaviour
         {
             EstaminaTotal -= 0.001f; // Actualiza el valor total de estamina
             Estamina.value = EstaminaTotal; // Actualiza el valor del slider
-            Debug.Log("Estamina actual: " + EstaminaTotal);
             return true;
         }
         else
@@ -90,7 +81,6 @@ public class ControldelUI : MonoBehaviour
             EstaminaTotal += velocidadRecuperacion;
             EstaminaTotal = Mathf.Clamp(EstaminaTotal, 0, 1); // Asegura que EstaminaTotal no sobrepase 1
             Estamina.value = EstaminaTotal;
-            Debug.Log("Recuperando estamina: " + EstaminaTotal);
             yield return null; // Espera al siguiente frame
         }
 

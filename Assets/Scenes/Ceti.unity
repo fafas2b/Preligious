@@ -37635,11 +37635,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 974238578668270715, guid: c28aa995f5027af40ba1ed2923036ce0, type: 3}
       propertyPath: JumpHeight
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 974238578668270715, guid: c28aa995f5027af40ba1ed2923036ce0, type: 3}
       propertyPath: SprintSpeed
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 974238578668270715, guid: c28aa995f5027af40ba1ed2923036ce0, type: 3}
+      propertyPath: JumpCooldown
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 974238578668270715, guid: c28aa995f5027af40ba1ed2923036ce0, type: 3}
+      propertyPath: TenerEstamina
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2119775930974504096, guid: c28aa995f5027af40ba1ed2923036ce0, type: 3}
       propertyPath: m_LocalScale.x
