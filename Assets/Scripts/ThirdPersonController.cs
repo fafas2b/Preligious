@@ -77,6 +77,11 @@ namespace StarterAssets
         public float Estamina; // Nivel de estamina del personaje
         public bool TenerEstamina; // Indica si el personaje tiene suficiente estamina para esprintar
 
+        [Header("Canvas del jugador")]
+        public Canvas EstaminaMenu; // Primer Canvas
+        public Canvas MenuPausa; // Segundo Canvas
+        public Canvas PantallaMuerto; // Segundo Canvas
+
         // Variables para el cooldown de salto
         [Header("Cooldown de Salto")]
         public float JumpCooldown = 3.0f; // Duración del cooldown para el salto
@@ -358,6 +363,10 @@ namespace StarterAssets
             {
                 AudioSource.PlayClipAtPoint(LandingAudioClip, transform.TransformPoint(_controller.center), FootstepAudioVolume);
             }
+        }
+
+        public bool GetEstamina(){
+            return TenerEstamina;
         }
     }
 }
